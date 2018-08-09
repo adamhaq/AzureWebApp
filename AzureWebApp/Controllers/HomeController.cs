@@ -5,13 +5,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using AzureWebApp.Models;
+using Microsoft.Extensions.Configuration;
 
 namespace AzureWebApp.Controllers
 {
     public class HomeController : Controller
-    {
+    {        
         public IActionResult Index()
-        {
+        {            
             return View();
         }
 
